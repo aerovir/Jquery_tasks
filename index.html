@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+
+</head>
+<body>
+    <div>
+    <ul>
+        <li id="array">
+            <p>Даны два массива: ['a', 'b', 'c'] и [1, 2, 3]. Объедините их вместе.</p>
+            <button class="variant0">variant0 (array+array)</button>
+            <button class="variant1">variant1 (array+array)</button>
+        </li>
+
+        <li id="arrayAddElement">
+            <p>Дан массив ['a', 'b', 'c']. Добавьте ему в конец элементы 1, 2, 3.</p>
+            <button class="variant0">variant0 (arrayAddElement)</button>
+        </li>
+        <li id="ruNglish">
+            <p>Переменная lang может принимать два значения: 'ru' и 'en'. Переменная month может принимать значения от 0 до 11.
+                Если lang имеет значение 'ru', то выведем название месяца, соответствующего содержимому переменной month, на русском языке, а если имеет значение 'en' – то на английском.</p>
+            <form id="form">
+                <p><input class="switchBtnRu" name="switchBtn" type="radio" value="ru" checked/>Русский</p>
+                <p><input class="switchBtnEn" name="switchBtn" type="radio" value="en">Английский</p>
+            </form>
+            <p>Выберете номер месяца</p>
+            <select id="switchMonth" name="switchMonth">
+                <option value="0">1</option>
+                <option value="1">2</option>
+                <option value="2">3</option>
+                <option value="3">4</option>
+                <option value="4">5</option>
+                <option value="5">6</option>
+                <option value="6">7</option>
+                <option value="7">8</option>
+                <option value="8">9</option>
+                <option value="9">10</option>
+                <option value="10">11</option>
+                <option value="11">12</option>
+            </select>
+            <button id="result0">итог0</button>
+            <button id="result1">итог1</button>
+        </li>
+        <li id="concat">
+            <p>Работа с concat
+                Даны два массива: [1, 2, 3] и [4, 5, 6]. Объедините их вместе.</p>
+            <button class="result0">итог0</button>
+        </li>
+        <li id="reverse">
+            <p>Работа с reverse
+                Дан массив [1, 2, 3]. Сделайте из него массив [3, 2, 1]</p>
+            <button class="result0">итог0</button>
+        </li>
+        <li id="pushUnsh">
+            <p>Дан массив [1, 2, 3]. Добавьте ему в конец элементы 4, 5, 6</p>
+            <p>Дан массив [1, 2, 3]. Добавьте ему в начало элементы 4, 5, 6</p>
+            <button class="push">push</button>
+            <button class="unshift">unshift</button>
+        </li>
+        <li id="shiftPop">
+            <p>Дан массив ['js', 'css', 'jq']. Выведите на экран первый элемент. </p>
+            <p>Дан массив ['js', 'css', 'jq']. Выведите на экран последний элемент</p>
+            <button class="shift">shift</button>
+            <button class="pop">pop</button>
+        </li>
+        <li id="slice">
+            <p>Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [1, 2, 3]</p>
+            <p>Дан массив [1, 2, 3, 4, 5]. С помощью метода slice запишите в новый элементы [4, 5]</p>
+            <button class="slice0">slice0</button>
+            <button class="slice1">slice1</button>
+        </li>
+        <li id="splice">
+            <p>splice0 Дан массив [1, 2, 3, 4, 5]. С помощью метода splice преобразуйте массив в [1, 4, 5]</p>
+            <p>splice1 Дан массив [1, 2, 3, 4, 5]. С помощью метода splice запишите в новый массив элементы [2, 3, 4]</p>
+            <p>splice2 Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 2, 3, 'a', 'b', 'c', 4, 5]</p>
+            <p>splice3 Дан массив [1, 2, 3, 4, 5]. С помощью метода splice сделайте из него массив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e']</p>
+            <button class="splice0">splice0</button>
+            <button class="splice1">splice1</button>
+            <button class="splice2">splice2</button>
+            <button class="splice3">slpice3</button>
+        </li>
+        <li id="sort">
+            <p>Дан массив [3, 4, 1, 2, 7]. Отсортируйте его</p>
+            <button class="sort">sort</button>
+        </li>
+        <li id="keys">
+            <p>Дан объект {js:'test', jq: 'hello', css: 'world'}. Получите массив его ключей</p>
+            <button class="object">Object.keys</button>
+        </li>
+    </ul>
+    </div>
+</body>
+</html>
